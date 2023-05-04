@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 .remark-slide {
   display: block;
@@ -196,10 +196,19 @@ html {
 .remark-slide-content.img-right > p:first-of-type {
   height: 100%;
   float: right;
-  width: calc(50% - 1rem);
+  width: calc(40% - 1rem);
   margin-left: 2rem;
   margin-top: 0px;
   padding: 0px;
+}
+.remark-slide-content.img-right pre,
+.remark-slide-content.img-right code,
+.remark-slide-content.img-right kbd,
+.remark-slide-content.img-right tt,
+.remark-slide-content.img-right samp {
+  font-size: 1.25rem;
+  overflow-y: auto;
+  max-height: 65%;
 }
 .remark-slide-content.img-left > p:first-of-type {
   height: 100%;
